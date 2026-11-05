@@ -1,0 +1,9 @@
+node_modules/
+.vercel/
+.tanstack/
+**/data/
+windows/*/node.exe
+*.zip
+*.log
+.DS_Store
+Thumbs.db
