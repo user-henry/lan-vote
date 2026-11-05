@@ -81,4 +81,4 @@ Windows 便携包位于 `windows/当场局域网投票/`：
 
 ## 许可
 
-未宣告许可证。
+本项目采用 **MIT License**，详见 [LICENSE](LICENSE)。

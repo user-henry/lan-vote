@@ -81,4 +81,4 @@ To build the package yourself, zip the whole `windows/当场局域网投票/` di
 
 ## License
 
-No license declared.
+This project is licensed under the **MIT License**. See [LICENSE](LICENSE).
