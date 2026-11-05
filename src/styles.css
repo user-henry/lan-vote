@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans SC", "WenQuanYi Zen Hei", "PingFang SC", "Microsoft YaHei",
+    sans-serif;
+  --font-serif: "Noto Serif SC", "Songti SC", "Noto Sans SC", "WenQuanYi Zen Hei", serif;
+  --color-paper: #f3ebdd;
+  --color-surface: #fffaf3;
+  --color-ink: #1c1612;
+  --color-muted: #6f655c;
+  --color-line: #e4d8c8;
+  --color-primary: #d63a1c;
+  --color-on-primary: #fffaf3;
+  --color-wash: #f8e4dc;
+  --radius-xl: 1rem;
+  --shadow-sheet: 0 1px 0 var(--color-line);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    line-height: 1.5;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    line-height: 1.15;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  ::selection {
+    background: var(--color-primary);
+    color: var(--color-on-primary);
+  }
+}
